@@ -6,5 +6,5 @@
     "outDir": "dist/api",
     "noEmit": false
   },
-  "include": ["src/server"]
+  "include": ["server"]
 }
