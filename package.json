@@ -7,7 +7,7 @@
     "dev": "vite --host",
     "build:client": "vite build",
     "build:server": "tsc -p tsconfig.server.json",
-    "build": "pnpm run build:client && pnpm run build:server",
+    "build": "echo 'Cache-bust' && pnpm run build:client && pnpm run build:server",
     "start": "NODE_ENV=production node dist-server/server/index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
