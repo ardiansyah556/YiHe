@@ -5,11 +5,11 @@
   "license": "MIT",
   "scripts": {
     "dev": "vite --host",
-    "build": "pnpm run build:client && pnpm run build:server",
     "build:client": "vite build",
     "build:server": "tsc -p tsconfig.server.json",
+    "build": "pnpm run build:client && pnpm run build:server",
     "vercel-build": "pnpm run build",
-    "start": "NODE_ENV=production node dist-server/server/index.js",
+    "start": "NODE_ENV=production node dist/api/server/index.js",
     "preview": "vite preview --host",
     "check": "tsc --noEmit",
     "format": "prettier --write ."
