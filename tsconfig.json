@@ -12,7 +12,6 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "jsxImportSource": "@builder.io/qwik",
 
     /* Linting */
     "strict": true,
