@@ -1,6 +1,0 @@
-{
-  "version": 2,
-  "env": {
-    "ENABLE_EXPERIMENTAL_COREPACK": "1"
-  }
-}
